@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    background: #F15B22;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+.btn-secondary {
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 25px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #F15B22;
+}
+
+/* header start*/
+
+.banner {
+    background-image: url(../images/banner/banner1.png);
+    height: 808px;
+    text-align: right;
+
+}
+
+.heading {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+.heading-texts .btn-primary {
+    margin-right: 230px;
+}
+
+h1 {
+    margin-top: 200px;
+    margin-right: 230px;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.header-p {
+    margin-top: 20px;
+    margin-right: 230px;
+    margin-bottom: 30px;
+}
+
+/* header end */
+
+/* failure section */
+
+.failure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.person {
+    width: 550px;
+
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.failure-p {
+    margin-bottom: 20px;
+}
+
+
+/* my plans */
+
+.plans {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plan-description {
+    color: #737272;
+    font-size: 25px;
+}
+
+
+/* bg img */
+
+.container {
+    height: 300px;
+    font-size: 40px;
+    color: #FFFFFF;
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.watch {
+    padding: 64px 0 0 200px;
+}
+
+/* footer styles */
+
+.footer {
+    display: flex;
+    gap: 330px;
+    background: #151414;
+    padding: 130px 230px;
+    margin-top: 260px;
+}
+
+.contact {
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.section-title {
+    text-align: left;
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.section-desc {
+    color: #FFFFFF;
+    margin-bottom: 24px;
+
+}
+
+.footer input {
+    height: 64px;
+    width: 325px;
+    background: #151414;
+    color: #F3F3F3;
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+.footer .btn-secondary{
+    margin-top: 16px;
+}
+
+/* end */
